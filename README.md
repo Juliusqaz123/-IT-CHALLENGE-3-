@@ -8,7 +8,7 @@ This program:
 - All output is stored in log files
 
 ## Requirements
-In order to run script  you need to have
+In order to run script  you need to have:
 - Python
 - Pandas
 
