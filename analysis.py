@@ -52,16 +52,13 @@ generate_log("abbreviations.txt", max_name_text + os.linesep + min_name_text)
 
 #SURASKITE, KURIOS KALBOS DARŽELIAI TURI DAUGIAUSIAI LAISVŲ VIETŲ PROCENTAIS.(maxpercentage.txt)
 #----------------------------------------------------------------------------
-#first we get percentage column
-percentage = df["FREE_SPACE"].divide(df["CHILDS_COUNT"])
-#then we add that column into datframe
-df.insert(value=percentage, loc=df.shape[1], column="PERCENTAGE")
-# replacing all rows which got inf in PERCENTAGE column with nan and then dropping rows with nan field
-df_clean = df.replace([np.inf, -np.inf], np.nan).dropna(subset=["PERCENTAGE"], how="all")
-# grouping by LAN_LABEL , getting mean , sorting and rounding the result
-free_schools = df_clean.groupby(['LAN_LABEL']).mean().sort_values(by=["PERCENTAGE"], ascending=False).round(2)
-generate_log("maxpercentage.txt",free_schools.iloc[[0]]['PERCENTAGE'].to_string(header=False))
+result = df.groupby(['LAN_LABEL']).sum()
+result = result['FREE_SPACE'].divide(result["CHILDS_COUNT"]).sort_values(ascending=False).round(2)
+generate_log("maxpercentage.txt",result.iloc[[0]].to_string(header=False))
 #----------------------------------------------------------------------------
+
+
+
 
 
 #IŠRINKTI VISUS DARŽELIUS, KURIUOSE YRA NUO 2 IKI 4 LAISVŲ VIETŲ. SUGRUPUOTI GAUTUS DARŽELIUS PAGAL PAVADINIMĄ IR IŠRŪŠIUOTI NUO Z IKI A.(2to4schools.txt)
@@ -69,6 +66,6 @@ generate_log("maxpercentage.txt",free_schools.iloc[[0]]['PERCENTAGE'].to_string(
 # selecting all rows which satisfies condition , summing free spaces and sorting in descending oder by SCHOOL_NAME
 result = df[(df["FREE_SPACE"] >= 2)  & (df["FREE_SPACE"] <= 4)].groupby(["SCHOOL_NAME", "DARZ_ID"]).sum().sort_values(by=['SCHOOL_NAME'], ascending=False)
 # we only need fields which was grouped by and the summed FREE_SPACE
-result_cleaned = result[["FREE_SPACE"]].copy()
+result_cleaned = result[["FREE_SPACE", "CHILDS_COUNT"]].copy()
 generate_log("2to4schools.txt", result_cleaned.to_string())
 #----------------------------------------------------------------------------------------------------------------------------------------

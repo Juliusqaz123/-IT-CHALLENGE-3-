@@ -1,49 +1,49 @@
-                                                            FREE_SPACE
-SCHOOL_NAME                                        DARZ_ID            
-Žirmūnėliai                                        159               2
-Žilvitis                                           135               3
-Žiburėlis                                          151               3
-Žemyna                                             131               3
-Šypsena                                            116               2
-Šaltinėlis                                         162               3
-Zylutė                                             129               7
-Voveraitė                                          127               7
-Volungė                                            181               8
-Vilniaus „Vilties“ specialioji mokykla-daugiafu... 167               3
-Vilniaus Naujininkų mokykla                        311               4
-Vilkpėdės                                          150               3
-Vaidilutė                                          119               3
-Svaja                                              146               2
-Spygliukas                                         157               4
-Skroblinukas                                       109               3
-Saulėgrąža                                         164               2
-Sakalėlis                                          105               6
-Rytas                                              101               2
-Rugelis                                            99                4
-Rasa                                               98                4
-Ramunėlė                                           102               3
-Pumpurėlis                                         93                5
-Prie pasakų parko                                  92                6
-Pakalnutė                                          82                4
-Naminukas (Smėlio g. 13)                           76                7
-Molinukas                                          75                2
-Medynėlis                                          74                3
-Lokiuko giraitė                                    71                4
-Liepsnelė                                          69                6
-Lašelis                                            67                7
-Lazdynų mokykla                                    188               3
-Lakštingala                                        66                2
-Kurpaitė                                           64                3
-Kodėlčiukas                                        62                3
-Kaštonas                                           60                3
-Karusėlė                                           59                8
-Justinukas                                         152               2
-Jovarėlis                                          57                3
-Gervelė (Stadiono g. 5)                            669               8
-Geniukų kalvė                                      50                3
-Gelvonėlis                                         51                4
-Drevinukas                                         44                3
-Daigelis                                           41                4
-Beržynėlis                                         34                3
-Bangelė                                            154               4
-Atžalėlės                                          32                4
+                                                            FREE_SPACE  CHILDS_COUNT
+SCHOOL_NAME                                        DARZ_ID                          
+Žirmūnėliai                                        159               2             2
+Žilvitis                                           135               3            42
+Žiburėlis                                          151               3            39
+Žemyna                                             131               3            69
+Šypsena                                            116               2            21
+Šaltinėlis                                         162               3            55
+Zylutė                                             129               7            25
+Voveraitė                                          127               7            81
+Volungė                                            181               8            99
+Vilniaus „Vilties“ specialioji mokykla-daugiafu... 167               3             9
+Vilniaus Naujininkų mokykla                        311               4            11
+Vilkpėdės                                          150               3            23
+Vaidilutė                                          119               3            61
+Svaja                                              146               2            39
+Spygliukas                                         157               4            22
+Skroblinukas                                       109               3            39
+Saulėgrąža                                         164               2            64
+Sakalėlis                                          105               6            46
+Rytas                                              101               2            45
+Rugelis                                            99                4            20
+Rasa                                               98                4            22
+Ramunėlė                                           102               3            21
+Pumpurėlis                                         93                5            63
+Prie pasakų parko                                  92                6            37
+Pakalnutė                                          82                4             2
+Naminukas (Smėlio g. 13)                           76                7            60
+Molinukas                                          75                2             1
+Medynėlis                                          74                3            21
+Lokiuko giraitė                                    71                4             1
+Liepsnelė                                          69                6            22
+Lašelis                                            67                7            47
+Lazdynų mokykla                                    188               3            18
+Lakštingala                                        66                2             5
+Kurpaitė                                           64                3            17
+Kodėlčiukas                                        62                3            45
+Kaštonas                                           60                3            25
+Karusėlė                                           59                8            87
+Justinukas                                         152               2           107
+Jovarėlis                                          57                3            14
+Gervelė (Stadiono g. 5)                            669               8            70
+Geniukų kalvė                                      50                3            48
+Gelvonėlis                                         51                4            25
+Drevinukas                                         44                3            11
+Daigelis                                           41                4            38
+Beržynėlis                                         34                3             3
+Bangelė                                            154               4            24
+Atžalėlės                                          32                4            20
