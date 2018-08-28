@@ -9,7 +9,7 @@ This program:
 
 ## Instructions
 1. Pull the project
-2. Inside main directory use write following command in command prompt virtual\scripts\python analysis.py
+2. Inside main directory  write following command in command prompt "virtual\scripts\python analysis.py"
 3. Program expects to be in same folder in which input.txt is located
 
 ## Author
