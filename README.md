@@ -1,4 +1,4 @@
-# Kindergarden analysis
+# Kindergarten analysis
 This program:
 - Reads csv file which consists of information about kindergartens
 - Displays the maximum and minimum value of CHILDS_COUNT column (maxmin.txt)
