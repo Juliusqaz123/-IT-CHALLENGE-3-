@@ -9,7 +9,8 @@ This program:
 
 ## Instructions
 1. Pull the project
-2. Inside main directory  write following command in command prompt "virtual\scripts\python analysis.py"
+2. If you have python and pandas installed then just call script by writing "python analysis.py" in cmd
+2. If you don't have either of those then inside main directory  write  "virtual\scripts\python analysis.py" in cmd
 3. Program expects to be in same folder in which input.txt is located
 
 ## Author
