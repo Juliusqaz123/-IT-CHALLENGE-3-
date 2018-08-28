@@ -1,0 +1,2 @@
+Max childs count value:  144
+Min childs count value:  0
