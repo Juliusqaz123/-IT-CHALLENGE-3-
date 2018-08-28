@@ -57,10 +57,6 @@ result = result['FREE_SPACE'].divide(result["CHILDS_COUNT"]).sort_values(ascendi
 generate_log("maxpercentage.txt",result.iloc[[0]].to_string(header=False))
 #----------------------------------------------------------------------------
 
-
-
-
-
 #IŠRINKTI VISUS DARŽELIUS, KURIUOSE YRA NUO 2 IKI 4 LAISVŲ VIETŲ. SUGRUPUOTI GAUTUS DARŽELIUS PAGAL PAVADINIMĄ IR IŠRŪŠIUOTI NUO Z IKI A.(2to4schools.txt)
 #----------------------------------------------------------------------------------------------------------------------------------------
 # selecting all rows which satisfies condition , summing free spaces and sorting in descending oder by SCHOOL_NAME
