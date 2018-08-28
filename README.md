@@ -1,6 +1,6 @@
 # Kindergarten analysis
 This program:
-- Reads csv file which consists of information about kindergartens
+- Reads csv file which consists of information about kindergartens (Program expects to have input.txt file in same folder as script)
 - Displays the maximum and minimum value of CHILDS_COUNT column (maxmin.txt)
 - Creates abbreviations of these rows (abbreviations.txt)
 - Finds which language kindergartens has most free space procentally (maxpercentage.txt)
